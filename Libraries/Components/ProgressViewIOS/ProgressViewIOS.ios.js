@@ -10,8 +10,8 @@
 
 'use strict';
 
-const React = require('react');
-const StyleSheet = require('../../StyleSheet/StyleSheet');
+import * as React from 'react';
+import StyleSheet from '../../StyleSheet/StyleSheet';
 
 import RCTProgressViewNativeComponent from './RCTProgressViewNativeComponent';
 import type {ImageSource} from '../../Image/ImageSource';

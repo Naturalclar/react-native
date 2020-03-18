@@ -10,7 +10,7 @@
 
 'use strict';
 
-const React = require('react');
+import React from 'react';
 
 import ProgressBarAndroidNativeComponent from './ProgressBarAndroidNativeComponent';
 
