@@ -10,7 +10,7 @@
 
 'use strict';
 
-const React = require('react');
+import * as React from 'react';
 
 /**
  * Renders static content efficiently by allowing React to short-circuit the

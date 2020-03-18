@@ -10,15 +10,15 @@
 
 'use strict';
 
-const Platform = require('../Utilities/Platform');
-const React = require('react');
-const StyleSheet = require('../StyleSheet/StyleSheet');
-const Text = require('../Text/Text');
-const TouchableNativeFeedback = require('./Touchable/TouchableNativeFeedback');
-const TouchableOpacity = require('./Touchable/TouchableOpacity');
-const View = require('./View/View');
+import Platform from '../Utilities/Platform';
+import * as React from 'react';
+import StyleSheet from '../StyleSheet/StyleSheet';
+import Text from '../Text/Text';
+import TouchableNativeFeedback from './Touchable/TouchableNativeFeedback';
+import TouchableOpacity from './Touchable/TouchableOpacity';
+import View from './View/View';
 
-const invariant = require('invariant');
+import invariant from 'invariant';
 
 import type {PressEvent} from '../Types/CoreEventTypes';
 import type {ColorValue} from '../StyleSheet/StyleSheetTypes';
