@@ -10,11 +10,11 @@
 
 'use strict';
 
-const PickerAndroid = require('./PickerAndroid');
-const PickerIOS = require('./PickerIOS');
-const Platform = require('../../Utilities/Platform');
-const React = require('react');
-const UnimplementedView = require('../UnimplementedViews/UnimplementedView');
+import PickerAndroid from './PickerAndroid';
+import PickerIOS from './PickerIOS';
+import Platform from '../../Utilities/Platform';
+import * as React from 'react';
+import UnimplementedView from '../UnimplementedViews/UnimplementedView';
 
 import type {TextStyleProp} from '../../StyleSheet/StyleSheet';
 import type {ColorValue} from '../../StyleSheet/StyleSheetTypes';
@@ -146,8 +146,6 @@ class Picker extends React.Component<PickerProps> {
       return <PickerIOS {...this.props}>{this.props.children}</PickerIOS>;
     } else if (Platform.OS === 'android') {
       return (
-        /* $FlowFixMe(>=0.81.0 site=react_native_android_fb) This suppression
-         * was added when renaming suppression sites. */
         <PickerAndroid {...this.props}>{this.props.children}</PickerAndroid>
       );
     } else {

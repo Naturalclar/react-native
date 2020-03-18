@@ -11,10 +11,10 @@
 
 'use strict';
 
-const React = require('react');
-const Picker = require('../Picker');
+import React from 'react';
+import Picker from '../Picker';
 
-const ReactNativeTestTools = require('../../../Utilities/ReactNativeTestTools');
+import * as ReactNativeTestTools from '../../../Utilities/ReactNativeTestTools';
 
 describe('<Picker />', () => {
   it('should render as expected', () => {
