@@ -10,8 +10,8 @@
 
 'use strict';
 
-const Platform = require('../../Utilities/Platform');
-const React = require('react');
+import Platform from '../../Utilities/Platform';
+import * as React from 'react';
 
 import type {ColorValue} from '../../StyleSheet/StyleSheetTypes';
 import type {ViewProps} from '../View/ViewPropTypes';

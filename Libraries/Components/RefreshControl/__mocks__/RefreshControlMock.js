@@ -10,9 +10,9 @@
 
 'use strict';
 
-const React = require('react');
+import * as React from 'react';
 
-const requireNativeComponent = require('../../../ReactNative/requireNativeComponent');
+import requireNativeComponent from '../../../ReactNative/requireNativeComponent';
 
 import type {HostComponent} from '../../../Renderer/shims/ReactNativeTypes';
 
