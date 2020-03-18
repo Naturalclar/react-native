@@ -11,12 +11,12 @@
 
 'use strict';
 
-const React = require('react');
-const Text = require('../../../Text/Text');
-const View = require('../../View/View');
-const MaskedViewIOS = require('../MaskedViewIOS');
+import React from 'react';
+import Text from '../../../Text/Text';
+import View from '../../View/View';
+import MaskedViewIOS from '../MaskedViewIOS';
 
-const ReactNativeTestTools = require('../../../Utilities/ReactNativeTestTools');
+import * as ReactNativeTestTools from '../../../Utilities/ReactNativeTestTools';
 
 describe('<MaskedViewIOS />', () => {
   it('should render as expected', () => {
