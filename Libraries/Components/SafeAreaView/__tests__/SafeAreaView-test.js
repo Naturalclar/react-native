@@ -11,11 +11,11 @@
 
 'use strict';
 
-const React = require('react');
-const SafeAreaView = require('../SafeAreaView');
-const ReactNativeTestTools = require('../../../Utilities/ReactNativeTestTools');
-const View = require('../../View/View');
-const Text = require('../../../Text/Text');
+import React from 'react';
+import SafeAreaView from '../SafeAreaView';
+import * as ReactNativeTestTools from '../../../Utilities/ReactNativeTestTools';
+import View from '../../View/View';
+import Text from '../../../Text/Text';
 
 describe('<SafeAreaView />', () => {
   it('should render as expected', () => {
