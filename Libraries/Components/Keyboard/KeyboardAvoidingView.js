@@ -10,12 +10,12 @@
 
 'use strict';
 
-const Keyboard = require('./Keyboard');
-const LayoutAnimation = require('../../LayoutAnimation/LayoutAnimation');
-const Platform = require('../../Utilities/Platform');
-const React = require('react');
-const StyleSheet = require('../../StyleSheet/StyleSheet');
-const View = require('../View/View');
+import Keyboard from './Keyboard';
+import LayoutAnimation from '../../LayoutAnimation/LayoutAnimation';
+import Platform from '../../Utilities/Platform';
+import * as React from 'react';
+import StyleSheet from '../../StyleSheet/StyleSheet';
+import View from '../View/View';
 
 import type {ViewStyleProp} from '../../StyleSheet/StyleSheet';
 import type EmitterSubscription from '../../vendor/emitter/EmitterSubscription';
