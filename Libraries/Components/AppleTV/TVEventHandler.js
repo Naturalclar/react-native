@@ -10,8 +10,8 @@
 
 'use strict';
 
-const Platform = require('../../Utilities/Platform');
-const NativeEventEmitter = require('../../EventEmitter/NativeEventEmitter');
+import Platform from '../../Utilities/Platform';
+import NativeEventEmitter from '../../EventEmitter/NativeEventEmitter';
 
 import NativeTVNavigationEventEmitter from './NativeTVNavigationEventEmitter';
 import type EmitterSubscription from '../../vendor/emitter/EmitterSubscription';
