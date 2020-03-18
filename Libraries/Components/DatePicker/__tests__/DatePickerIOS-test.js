@@ -11,10 +11,10 @@
 
 'use strict';
 
-const React = require('react');
-const DatePickerIOS = require('../DatePickerIOS');
+import React from 'react';
+import DatePickerIOS from '../DatePickerIOS';
 
-const ReactNativeTestTools = require('../../../Utilities/ReactNativeTestTools');
+import * as ReactNativeTestTools from '../../../Utilities/ReactNativeTestTools';
 
 describe('DatePickerIOS', () => {
   it('should render as expected', () => {

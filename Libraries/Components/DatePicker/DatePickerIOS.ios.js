@@ -15,11 +15,11 @@
 import RCTDatePickerNativeComponent, {
   Commands as DatePickerCommands,
 } from './RCTDatePickerNativeComponent';
-const React = require('react');
-const StyleSheet = require('../../StyleSheet/StyleSheet');
-const View = require('../View/View');
+import * as React from 'react';
+import StyleSheet from '../../StyleSheet/StyleSheet';
+import View from '../View/View';
 
-const invariant = require('invariant');
+import invariant from 'invariant';
 
 import type {SyntheticEvent} from '../../Types/CoreEventTypes';
 import type {ViewProps} from '../View/ViewPropTypes';
