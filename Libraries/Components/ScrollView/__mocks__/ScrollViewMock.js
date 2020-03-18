@@ -12,10 +12,10 @@
 
 'use strict';
 
-const React = require('react');
-const View = require('../../View/View');
+import * as React from 'react';
+import View from '../../View/View';
 
-const requireNativeComponent = require('../../../ReactNative/requireNativeComponent');
+import requireNativeComponent from '../../../ReactNative/requireNativeComponent';
 
 import type {HostComponent} from '../../../Renderer/shims/ReactNativeTypes';
 
